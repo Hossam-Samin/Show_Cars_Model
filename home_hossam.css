@@ -1,0 +1,118 @@
+
+
+/*CSS FOR HOME PAGE*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    
+  
+    background: url("./images/background.jpg");
+
+}
+
+nav{
+    color:  #063247;
+    height: 120px;
+    width: 100%;
+
+}
+
+label.logo{
+    color: #063247;
+    font-size: 30px;
+    padding: 20px 30px 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    background: #063247;
+    display: block;
+    
+}
+a.Home,a:hover{
+    background: gray;
+    transition: .5s;
+
+}
+.title{
+  
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Short Stack', cursive;
+    color: #063247;
+    margin-top: 600px;
+    text-align: center;
+    
+}
+.discription{
+    font-size: 15px;
+    color: gray;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-right: 30px;
+    font-family: 'Short Stack', cursive;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.img{
+   padding-top: 0px;
+   padding-left: 20px;
+   font-family: 'Short Stack', cursive;
+    
+}
+
+
+  nav ul li a:hover,
+  nav ul li a.active{
+    color: #23dbdb;
+  }
+  nav ul ul{
+    position: static;
+    top: 85px;
+    border-top: 3px solid #23dbdb;
+    opacity: 0.5;
+    visibility: hidden;
+  }
+  nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+  nav ul ul li{
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #042331;
+    border-top: none;
+  }
+  nav ul ul li a{
+    line-height: 30px;
+  }
+ 
+
+  

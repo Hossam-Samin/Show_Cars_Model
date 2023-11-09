@@ -1,0 +1,105 @@
+
+/*CSS BMW PAGE*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: rgb(27, 27, 27);
+
+}
+.card h2{
+    color: black;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.card p{
+    color: darkblue;
+    margin-top: 20px;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.card p a{
+    background-color: #063247;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+    display: block;
+    height: 25px;
+    
+    
+}
+
+.card:hover{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.card a:hover{
+    color: #23dbdb;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+  }
+  .card{
+    background: white;
+    width: 270px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  .card-image{
+    background-color: #063247;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+  }
+  .car-1{
+    background-image: url("./images/BMW-X7-Download-Free-PNG.png");
+  }
+  .car-2{
+    background-image: url("./images/bmw_x6_m_performance_parts_2019_4k-HD.jpg");
+  }
+  .car-3{
+    background-image: url("./images/22767-3-bmw-x5-file.png");
+  }
+  .car-4{
+    background-image: url("./images/bmw-i-series-iX-modelcard-890x501.png");
+  }
+  .car-5{
+    background-image: url("./images/1.png");
+  }
+  .car-6{
+    background-image: url("./images/22SP_C4H.png" );
+    
+  }
+
+  .description{
+    color: #063247;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+  }
+  .description-ph{
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: center;
+
+  }
